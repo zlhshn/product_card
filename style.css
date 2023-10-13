@@ -68,6 +68,12 @@ div.about-product{
     gap:1rem;
    
 }
+
+.part1-productName .header h2{
+    font-weight: 700;
+    font-size: 2rem;
+
+}
    
 .part1-productName .header p{
     background-color: #2175F5;
@@ -78,28 +84,36 @@ div.about-product{
 
 .apple{
     font-weight: 500;
+    font-size: 19px;
     /* color: rgb(104, 102, 102); */
     margin-bottom: 1rem;
 }
 
 .part2-productInfo .info{
-    font-weight: 500;
-    font-size: 1.3rem;
+    font-weight: 600;
+    font-size: 1.2em;
 }
 
 .part2-productInfo .info-text{
-    font-weight: 300;
+   font-size: 17px;
+   list-style-type: none;
+   margin-bottom: 1rem;
 }
 
+/* -------------------------------------------------------------------------- */
+/*                                   part-3                                   */
+/* -------------------------------------------------------------------------- */
+
 .part3-productStorage h2{
-    font-weight: 550 ;
+    font-weight: 600 ;
+    font-size: 19px;
 }
 
 .memory{
     display: flex;
     list-style-type: none;
     justify-content: flex-start;
-    padding: 1rem;
+    padding: 0.5rem;
     gap: 1rem;
     
 }
@@ -114,6 +128,7 @@ div.about-product{
     color: black;
     text-align:center ;
     padding-top: 8px;
+    cursor: pointer;
 
 }
 
@@ -126,21 +141,25 @@ div.about-product{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 1rem;
 }
 
 .addToCard button{
     background-color: #2175F5;
     padding: 1rem;
+    font-size: 17px;
     color: white;
-    font-weight: 700;
+    font-weight: 500;
     border: none;
+    letter-spacing: 1;
     outline: none;
+    cursor: pointer;
 }
 
 .addToCard p{
     color: black;
-    font-size: 1.5rem;
-    font-weight: 700;
+    font-size: 2rem;
+    font-weight: 600;
     padding: 11px 16px;
   
   
