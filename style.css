@@ -28,6 +28,7 @@ body{
 
 .card{
     display: flex;
+  
     width: 100%;
     background-color: white;
     justify-content: center;
@@ -35,9 +36,9 @@ body{
 }
 
 div.img{
-   flex: 1;
+    flex: 1;
     width: 100%;
-    height: 96%;
+    height: 100%;
 }
 
 div.img img{
@@ -51,7 +52,8 @@ div.about-product{
   flex: 1;
  /* margin: 1rem; */
  color: #474747;
- margin: 2rem 7rem;
+ margin: 2rem 0;
+ padding: 0 5rem;
  
   
 }
@@ -167,3 +169,75 @@ div.about-product{
 .addToCard button i{
     margin-right: 0.3rem;
 }
+
+@media screen and (max-width:1200px) {
+  .container{
+    width: 1000px;
+    height: 500px;
+    padding: 0;
+    background-color: #F3F3F3;
+    box-shadow: 0 0 45px rgba(0, 0, 0, 0.4);
+  }
+.card{
+  
+    box-shadow: 3px 3px 25px rgba(0, 0, 0, 0.4);
+}
+
+
+  div.about-product{
+    
+    box-shadow: 3px 5px 35px rgba(0, 0, 0, 0.4);
+    height: 100%;
+   
+    flex: 1;
+    font-size: 1rem;
+   padding-left: 3rem;
+   padding-top: 2rem;
+    
+  }
+
+  .part2-productInfo .info-text .clip{
+  display: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+ }
+
+ .part2-productInfo .info-text .dot::after{
+    content: '...';
+
+ }
+
+div.img {
+   
+flex: 1;
+
+}
+
+.part2-productInfo .info-text{
+    font-size: 16px;
+    color: gray;
+ }
+  
+}
+
+@media screen and (max-width:992px){
+
+.card{
+    /* flex-direction: column; */
+
+   
+
+}
+
+  
+ 
+}
+
+div.img img{
+    box-shadow: none;
+   min-width: 400px;
+   margin: 0;
+    
+    }
+      
+    
