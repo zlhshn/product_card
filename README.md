@@ -7,4 +7,6 @@ TCSS skills, including 'media queries", 'flex',  'margin', and 'padding' to crea
 product card interface.
 
 ### Project Page
-[product card]()
+[product card](https://zlhshn.github.io/product_card/)
+
+![product card](./img/xl.png) ![medium](./img/l-m.png)
